@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import {StyleSheet} from 'react-native';
 
 //Todos los componentes tienen el position relative
 export const styles = StyleSheet.create({
@@ -10,20 +10,20 @@ export const styles = StyleSheet.create({
   sectionViewContainer: {
     width: '70%',
     height: '50%',
-    marginTop: 40
+    marginTop: 40,
   },
   sectionTextTitle: {
     fontSize: 30,
     textAlign: 'center',
     color: 'purple',
     fontWeight: 'bold',
-    marginTop: 20
+    marginTop: 20,
   },
   sectionLabelInsect: {
     fontSize: 18,
     color: 'black',
     marginTop: 40,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
   },
   sectionInputName: {
     height: 40,
@@ -33,7 +33,7 @@ export const styles = StyleSheet.create({
     fontSize: 18,
     marginTop: 15,
     color: 'black',
-    paddingLeft: 10
+    paddingLeft: 10,
   },
   sectionInputQuantity: {
     fontSize: 18,
@@ -44,7 +44,7 @@ export const styles = StyleSheet.create({
     borderColor: 'purple',
     marginTop: 15,
     borderRadius: 5,
-    paddingLeft: 10
+    paddingLeft: 10,
   },
   sectionViewButtonSave: {
     backgroundColor: '#A569BD',
@@ -54,13 +54,13 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     position: 'absolute',
     top: 80,
-    left: 170
+    left: 170,
   },
   sectionTextSave: {
     color: '#fff',
     fontSize: 20,
     fontWeight: 'bold',
-    alignSelf: 'center'
+    alignSelf: 'center',
   },
   sectionViewButtonClean: {
     backgroundColor: '#A569BD',
@@ -70,19 +70,19 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     position: 'absolute',
     top: 80,
-    right: 160
+    right: 160,
   },
   sectionTextClean: {
     color: '#fff',
     fontSize: 20,
     fontWeight: 'bold',
-    alignSelf: 'center'
+    alignSelf: 'center',
   },
   sectionInsect: {
     flex: 1,
     justifyContent: 'flex-start',
     alignItems: 'center',
-    marginTop: 60
+    marginTop: 60,
   },
   sectionTableHead: {
     backgroundColor: '#A569BD',
@@ -93,13 +93,13 @@ export const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     marginTop: 15,
-    borderRadius: 5
+    borderRadius: 5,
   },
   sectionTableTitle: {
     fontSize: 20,
     color: 'white',
     fontWeight: 'bold',
-    paddingHorizontal: 10
+    paddingHorizontal: 10,
   },
   sectionTableRow: {
     width: '70%',
@@ -110,7 +110,6 @@ export const styles = StyleSheet.create({
   sectionRowSubtitle: {
     fontSize: 18,
     color: 'black',
-    paddingHorizontal: 10
-  }
+    paddingHorizontal: 10,
+  },
 });
-
